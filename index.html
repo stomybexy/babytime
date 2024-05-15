@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="Description" content="Put your description here." />
+    <base href="/" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <style>
+      *,
+      *:before,
+      *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+        background-color: #ededed;
+        font-weight: 400;
+        font-size: 0.875rem;
+      }
+      html {
+        box-sizing: border-box;
+      }
+    </style>
+    <title>babytime</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <h1>Baby Time</h1>
+      <button class="add" id="add">+</button>
+
+      <h4>Contractions</h4>
+      <table style="width: 100%" id="table">
+        <tr>
+          <th>Date</th>
+          <th>Depuis la dernière</th>
+        </tr>
+      </table>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
